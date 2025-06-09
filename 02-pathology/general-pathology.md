@@ -1,3 +1,9 @@
+---
+title: "General Pathology"
+order: 1
+category: "Pathology"
+---
+
 # General Pathology
 
 ## Overview

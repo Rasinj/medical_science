@@ -1,3 +1,9 @@
+---
+title: "Genetic Disorders"
+order: 5
+category: "Pathology"
+---
+
 # Genetic Disorders
 
 ## Overview

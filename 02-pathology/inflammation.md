@@ -1,3 +1,9 @@
+---
+title: "Inflammation"
+order: 3
+category: "Pathology"
+---
+
 # Inflammation
 
 ## Overview

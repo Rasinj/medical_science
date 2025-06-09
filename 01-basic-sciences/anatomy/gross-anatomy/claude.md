@@ -1,3 +1,9 @@
+---
+title: "Gross Anatomy"
+order: 1
+category: "Anatomy"
+---
+
 # Gross Anatomy
 
 ## Overview

@@ -1,3 +1,9 @@
+---
+title: "Emergency and Critical Care"
+order: 6
+category: "Medical Curriculum"
+---
+
 # 06-Emergency and Critical Care
 
 ## Overview

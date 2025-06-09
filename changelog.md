@@ -1,3 +1,9 @@
+---
+title: "Changelog"
+order: 2
+category: "Overview"
+---
+
 # Medical Science Study Notes - Change Log
 
 ## 2025-06-06 10:30:00 UTC

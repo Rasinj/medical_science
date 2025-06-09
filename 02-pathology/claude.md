@@ -1,3 +1,9 @@
+---
+title: "Pathology"
+order: 2
+category: "Medical Curriculum"
+---
+
 # 02-Pathology
 
 ## Overview

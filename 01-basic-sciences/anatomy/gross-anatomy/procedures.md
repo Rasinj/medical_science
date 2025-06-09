@@ -1,3 +1,9 @@
+---
+title: "Gross Anatomy - Procedures"
+order: 3
+category: "Anatomy"
+---
+
 # Gross Anatomy - Procedures
 
 ## Overview

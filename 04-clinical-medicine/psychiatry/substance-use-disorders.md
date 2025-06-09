@@ -1,3 +1,9 @@
+---
+title: "Substance Use Disorders"
+order: 5
+category: "Psychiatry"
+---
+
 # Substance Use Disorders
 
 ## Overview

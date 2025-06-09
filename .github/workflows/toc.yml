@@ -1,0 +1,28 @@
+name: Rebuild TOC
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  toc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Table of Contents
+        run: node scripts/gen-toc.js
+
+      - name: Commit TOC changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore: update README TOC'
+          file_pattern: README.md

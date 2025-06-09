@@ -1,3 +1,9 @@
+---
+title: "Mood Disorders"
+order: 1
+category: "Psychiatry"
+---
+
 # Mood Disorders
 
 ## Overview

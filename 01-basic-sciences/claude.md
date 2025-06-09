@@ -1,3 +1,9 @@
+---
+title: "Basic Sciences"
+order: 1
+category: "Medical Curriculum"
+---
+
 # 01-Basic Sciences
 
 ## Overview

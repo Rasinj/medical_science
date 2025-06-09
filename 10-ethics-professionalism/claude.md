@@ -1,3 +1,9 @@
+---
+title: "Ethics and Professionalism"
+order: 10
+category: "Medical Curriculum"
+---
+
 # 10-Ethics and Professionalism
 
 ## Overview

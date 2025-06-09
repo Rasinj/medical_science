@@ -1,3 +1,9 @@
+---
+title: "Stroke"
+order: 1
+category: "Neurology"
+---
+
 # Stroke
 
 ## Overview

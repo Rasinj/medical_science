@@ -1,3 +1,9 @@
+---
+title: "Gastrointestinal Physiology"
+order: 6
+category: "Physiology"
+---
+
 # Gastrointestinal Physiology
 
 ## Overview

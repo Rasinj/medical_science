@@ -1,3 +1,9 @@
+---
+title: "Psychotic Disorders"
+order: 2
+category: "Psychiatry"
+---
+
 # Psychotic Disorders
 
 ## Overview

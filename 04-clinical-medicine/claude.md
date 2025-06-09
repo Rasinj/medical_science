@@ -1,3 +1,9 @@
+---
+title: "Clinical Medicine"
+order: 4
+category: "Medical Curriculum"
+---
+
 # 04-Clinical Medicine
 
 ## Overview

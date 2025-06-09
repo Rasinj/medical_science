@@ -1,3 +1,9 @@
+---
+title: "Pharmacology"
+order: 3
+category: "Medical Curriculum"
+---
+
 # 03-Pharmacology
 
 ## Overview
