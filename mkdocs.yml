@@ -1,0 +1,219 @@
+site_name: Medical Science Study Notes
+site_description: Comprehensive medical education study notes covering the complete five-year medical degree curriculum
+site_author: Medical Education Team
+site_url: https://rasinj.github.io/medical_science/
+
+repo_name: Rasinj/medical_science
+repo_url: https://github.com/Rasinj/medical_science
+edit_uri: edit/main/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/light-bulb-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Rasinj/medical_science
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: >
+  Copyright &copy; 2025 Medical Education Team |
+  <a href="#__consent">Cookie settings</a> |
+  Medical content for educational purposes only
+
+nav:
+  - Home: index.md
+  - Overview: OVERVIEW.md
+  - Topic Index: INDEX.md
+
+  - Basic Sciences:
+    - Overview: basic-sciences/README.md
+    - Anatomy:
+      - Overview: basic-sciences/anatomy/README.md
+      - Gross Anatomy:
+        - Overview: basic-sciences/anatomy/gross-anatomy/overview.md
+        - Common Conditions: basic-sciences/anatomy/gross-anatomy/common-conditions.md
+        - Procedures: basic-sciences/anatomy/gross-anatomy/procedures.md
+        - Medications: basic-sciences/anatomy/gross-anatomy/medications.md
+      - Neuroanatomy:
+        - Overview: basic-sciences/anatomy/neuroanatomy/overview.md
+        - Brain Anatomy: basic-sciences/anatomy/neuroanatomy/brain-anatomy.md
+        - Spinal Cord: basic-sciences/anatomy/neuroanatomy/spinal-cord.md
+        - Common Conditions: basic-sciences/anatomy/neuroanatomy/common-conditions.md
+      - Embryology:
+        - Overview: basic-sciences/anatomy/embryology/overview.md
+        - Organogenesis: basic-sciences/anatomy/embryology/organogenesis.md
+        - Congenital Abnormalities: basic-sciences/anatomy/embryology/congenital-abnormalities.md
+      - Histology:
+        - Overview: basic-sciences/anatomy/histology/overview.md
+        - Epithelial Tissue: basic-sciences/anatomy/histology/epithelial-tissue.md
+        - Connective Tissue: basic-sciences/anatomy/histology/connective-tissue.md
+        - Muscle Tissue: basic-sciences/anatomy/histology/muscle-tissue.md
+        - Nervous Tissue: basic-sciences/anatomy/histology/nervous-tissue.md
+    - Physiology:
+      - Overview: basic-sciences/physiology/README.md
+      - Cardiovascular: basic-sciences/physiology/cardiovascular-physiology.md
+      - Respiratory: basic-sciences/physiology/respiratory-physiology.md
+      - Renal: basic-sciences/physiology/renal-physiology.md
+      - Endocrine: basic-sciences/physiology/endocrine-physiology.md
+      - Neurophysiology: basic-sciences/physiology/neurophysiology.md
+      - Gastrointestinal: basic-sciences/physiology/gastrointestinal-physiology.md
+    - Biochemistry:
+      - Metabolism: basic-sciences/biochemistry/metabolism.md
+      - Molecular Biology: basic-sciences/biochemistry/molecular-biology.md
+      - Clinical Biochemistry: basic-sciences/biochemistry/clinical-biochemistry.md
+    - Microbiology:
+      - Overview: basic-sciences/microbiology/README.md
+      - Bacteriology: basic-sciences/microbiology/bacteriology.md
+      - Virology: basic-sciences/microbiology/virology.md
+      - Mycology: basic-sciences/microbiology/mycology.md
+      - Parasitology: basic-sciences/microbiology/parasitology.md
+    - Immunology:
+      - Innate Immunity: basic-sciences/immunology/innate-immunity.md
+      - Adaptive Immunity: basic-sciences/immunology/adaptive-immunity.md
+
+  - Pathology:
+    - Overview: pathology/README.md
+    - General: pathology/general-pathology.md
+    - Cellular: pathology/cellular-pathology.md
+    - Inflammation: pathology/inflammation.md
+    - Neoplasia: pathology/neoplasia.md
+    - Genetic Disorders: pathology/genetic-disorders.md
+    - Systemic Pathology:
+      - Overview: pathology/systemic-pathology/README.md
+      - Cardiovascular: pathology/systemic-pathology/cardiovascular-pathology.md
+      - Respiratory: pathology/systemic-pathology/respiratory-pathology.md
+      - Gastrointestinal: pathology/systemic-pathology/gastrointestinal-pathology.md
+      - Neurological: pathology/systemic-pathology/neurological-pathology.md
+      - Genitourinary: pathology/systemic-pathology/genitourinary-pathology.md
+      - Musculoskeletal: pathology/systemic-pathology/musculoskeletal-pathology.md
+    - Clinical Pathology:
+      - Overview: pathology/clinical-pathology/README.md
+      - Laboratory Medicine: pathology/clinical-pathology/laboratory-medicine.md
+      - Hematopathology: pathology/clinical-pathology/hematopathology.md
+      - Clinical Chemistry: pathology/clinical-pathology/clinical-chemistry.md
+      - Molecular Diagnostics: pathology/clinical-pathology/molecular-diagnostics.md
+      - Cytopathology: pathology/clinical-pathology/cytopathology.md
+    - Forensic Pathology:
+      - Overview: pathology/forensic-pathology/README.md
+      - Autopsy Procedures: pathology/forensic-pathology/autopsy-procedures.md
+      - Trauma Analysis: pathology/forensic-pathology/trauma-analysis.md
+      - Forensic Toxicology: pathology/forensic-pathology/forensic-toxicology.md
+      - Legal Aspects: pathology/forensic-pathology/legal-aspects.md
+      - Time of Death: pathology/forensic-pathology/time-of-death.md
+
+  - Pharmacology:
+    - Overview: pharmacology/README.md
+
+  - Clinical Medicine:
+    - Overview: clinical-medicine/README.md
+    - Neurology:
+      - Stroke: clinical-medicine/neurology/stroke.md
+      - Epilepsy: clinical-medicine/neurology/epilepsy.md
+      - Movement Disorders: clinical-medicine/neurology/movement-disorders.md
+      - Dementia: clinical-medicine/neurology/dementia.md
+      - Headache: clinical-medicine/neurology/headache.md
+    - Psychiatry:
+      - Mood Disorders: clinical-medicine/psychiatry/mood-disorders.md
+      - Psychotic Disorders: clinical-medicine/psychiatry/psychotic-disorders.md
+      - Anxiety Disorders: clinical-medicine/psychiatry/anxiety-disorders.md
+      - Personality Disorders: clinical-medicine/psychiatry/personality-disorders.md
+      - Substance Use Disorders: clinical-medicine/psychiatry/substance-use-disorders.md
+
+  - Surgery:
+    - Overview: surgery/README.md
+
+  - Emergency & Critical Care:
+    - Overview: emergency-critical-care/README.md
+
+  - Ethics & Professionalism:
+    - Overview: ethics-professionalism/README.md
+
+  - Resources:
+    - Contributing: CONTRIBUTING.md
+    - Changelog: changelog.md

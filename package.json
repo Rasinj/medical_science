@@ -6,6 +6,8 @@
   "main": "index.js",
   "scripts": {
     "gen-toc": "node scripts/gen-toc.js",
+    "gen-index": "node scripts/gen-index.js",
+    "gen-all": "npm run gen-toc && npm run gen-index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

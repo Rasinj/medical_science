@@ -1,0 +1,102 @@
+/* Custom styles for medical science notes */
+
+/* Status badges */
+.status-complete {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.status-in-progress {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.status-planned {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+/* Improved table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Medical abbreviations */
+abbr {
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+/* Clinical notes highlighting */
+.clinical-note {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Warning boxes for clinical alerts */
+.clinical-warning {
+  background-color: #fff3e0;
+  border-left: 4px solid #ff9800;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Emergency/critical information */
+.critical {
+  background-color: #ffebee;
+  border-left: 4px solid #f44336;
+  padding: 1em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+/* Improve readability for medical content */
+.md-content {
+  line-height: 1.7;
+}
+
+.md-content h2 {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Key points highlighting */
+.md-content h2:contains("Key Points") + ul,
+.md-content h2:contains("Key Points") + ol {
+  background-color: #f5f5f5;
+  padding: 1em 1em 1em 2.5em;
+  border-radius: 4px;
+}
+
+/* Reference section styling */
+.md-content h2:contains("References") + ol {
+  font-size: 0.9em;
+  color: var(--md-default-fg-color--light);
+}
+
+/* See Also section */
+.md-content h2:contains("See Also") + p,
+.md-content h2:contains("See Also") + ul {
+  background-color: #e8f5e9;
+  padding: 1em;
+  border-radius: 4px;
+  border-left: 4px solid #4caf50;
+}
